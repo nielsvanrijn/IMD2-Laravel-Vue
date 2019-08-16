@@ -6,15 +6,27 @@ A fairly simple Laravel application using MySQL database
 
 ## Usage
 Run composer
-`composer install`
+
+```
+composer install
+```
 
 Install node modules
-`npm i`
+
+```
+npm i
+```
 
 Change the `.env.example` to `.env` with your database credentials.
 
 Create the tables
-`php artisan migrate`
+
+```
+php artisan migrate
+```
 
 Seed database with genres and some actors
-`php artisan db:seed`
+
+```
+php artisan db:seed
+```
