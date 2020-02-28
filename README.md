@@ -31,23 +31,20 @@ Seed database with genres and some actors
 php artisan db:seed
 ```
 
-#### LabTextarea
-- Tag: `<LabTextarea>`\
+#### LabAlert
+- Tag: `<LabAlert>`\
 - Properties
 
-| Name | Required | Type | Validation | Default |
-| --- | --- | --- | --- |
-| value | yes | `String` |  | `''` |
-| label | yes | `String` |  | `''` |
-| placeholder | yes | `String` |  | `''` |
-| autofocus | yes | `Boolean` |  | `false` |
-| disabled | yes | `Boolean` |  | `false` |
-| requierd  | yes | `Boolean` |  | `false` |
-| hasErrors | yes | `Boolean` |  | `false` |
-| isSuccsess | yes | `Boolean` |  | `false` |
-| col | yes | `Number` |  | `0` |
-| rows | yes | `Number` |  | `0` |
-| maxlength | yes | `Number` |  | `-1` |
+	| Name | Required | Type | Validation | Default |
+	|:--|:--|:--|:--|:--|
+	| msg | yes | `String` |  |  |
+	| type | yes | `String` |  |  |
+
+- Example:
+
+	```html
+	<LabAlert :msg="'There was a error'" :type="'error'" />
+	```
 
 - Example:
 
