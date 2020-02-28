@@ -30,26 +30,3 @@ Seed database with genres and some actors
 ```
 php artisan db:seed
 ```
-
-#### LabAlert
-- Tag: `<LabAlert>`\
-- Properties
-
-	| Name | Required | Type | Validation | Default |
-	|:--|:--|:--|:--|:--|
-	| msg | yes | `String` |  |  |
-	| type | yes | `String` |  |  |
-
-- Example:
-
-	```html
-	<LabAlert :msg="'There was a error'" :type="'error'" />
-	```
-
-- Example:
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-| git diff |  |
