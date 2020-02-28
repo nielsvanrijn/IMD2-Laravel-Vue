@@ -36,7 +36,7 @@ php artisan db:seed
 - Properties
 
 	| Name | Required | Type | Validation | Default |
-	|:--|:--|:--|:--|
+	|---|---|---|---|
 	| value | yes | `String` |  | `''` |
 	| label | yes | `String` |  | `''` |
 	| placeholder | yes | `String` |  | `''` |
