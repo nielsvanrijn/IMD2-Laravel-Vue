@@ -35,19 +35,19 @@ php artisan db:seed
 - Tag: `<LabTextarea>`\
 - Properties
 
-	| Name | Required | Type | Validation | Default |
-	|---|---|---|---|
-	| value | yes | `String` |  | `''` |
-	| label | yes | `String` |  | `''` |
-	| placeholder | yes | `String` |  | `''` |
-	| autofocus | yes | `Boolean` |  | `false` |
-	| disabled | yes | `Boolean` |  | `false` |
-	| requierd  | yes | `Boolean` |  | `false` |
-	| hasErrors | yes | `Boolean` |  | `false` |
-	| isSuccsess | yes | `Boolean` |  | `false` |
-	| col | yes | `Number` |  | `0` |
-	| rows | yes | `Number` |  | `0` |
-	| maxlength | yes | `Number` |  | `-1` |
+| Name | Required | Type | Validation | Default |
+|:--|:--|:--|:--|
+| value | yes | `String` |  | `''` |
+| label | yes | `String` |  | `''` |
+| placeholder | yes | `String` |  | `''` |
+| autofocus | yes | `Boolean` |  | `false` |
+| disabled | yes | `Boolean` |  | `false` |
+| requierd  | yes | `Boolean` |  | `false` |
+| hasErrors | yes | `Boolean` |  | `false` |
+| isSuccsess | yes | `Boolean` |  | `false` |
+| col | yes | `Number` |  | `0` |
+| rows | yes | `Number` |  | `0` |
+| maxlength | yes | `Number` |  | `-1` |
 
 - Example:
 
